@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume | Dhiviraju Gangaraju</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="index.html">Dhiviraju Gangaraju</a>
+    <nav class="navbar" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="resume-page">
+    <h1>Resume</h1>
+
+    <div class="button-row">
+      <a class="button" href="files/tempresume.pdf" download>Download PDF</a>
+      <a class="button button-outline" href="files/tempresume.pdf" target="_blank" rel="noopener noreferrer">Open in new tab</a>
+    </div>
+
+    <object class="resume-viewer" data="files/tempresume.pdf#view=FitH" type="application/pdf" aria-label="Resume PDF">
+      <p class="resume-fallback">
+        Your browser can't display the PDF here.
+        <a href="files/tempresume.pdf">Open or download my resume</a> instead.
+      </p>
+    </object>
+  </main>
+
+</body>
+</html>
